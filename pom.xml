@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>XSLTSaxonServletFilter</name>
-	<url>http://maven.apache.org</url>
+	<url>http://www.basex.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,4 +52,15 @@
 			</plugin>
 		</plugins>
 	</build>
+	<description>We use this at BaseX as a drop-in replacement for client-side &amp;lt;?xml-stylesheet transformations, as those tend to be slow in Chrome and are limited to XSL 1.0 as well.
+
+</description>
+	<organization>
+		<name>BaseX GmbH</name>
+		<url>http://basex.org</url>
+	</organization>
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/basex-gmbh/xsltfilterservlet/issues</url>
+	</issueManagement>
 </project>
